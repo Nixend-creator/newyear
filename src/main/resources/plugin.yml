@@ -1,0 +1,20 @@
+name: NewYear
+version: 2.0.0
+main: n1xend.newyear.Main
+api-version: '1.21'
+author: n1xend
+description: >
+  Новогодний плагин: подарки, снег, Санта, ежедневные задания, квесты,
+  анти-спам, анти-дюп, анти-логаут, 3D-подарки и автоматические ивенты.
+
+website: https://github.com/n1xend/NewYear
+
+commands:
+  ny:
+    description: Главная команда новогоднего плагина
+    usage: "/ny <команда>"
+    aliases: [newyear]
+
+# Плагин зависит от Vault (если используешь деньги как награду)
+softdepend:
+  - Vault
